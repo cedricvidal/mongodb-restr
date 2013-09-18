@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+/**
+ * Module dependencies.
+ */
+
+var mongodbrest = require('../mongodb-restr')().listen(3000);
